@@ -1,0 +1,32 @@
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+*.user
+*.suo
+.vscode/
+.vscode-test/
+.idea/
+.vs/
+_DotNetTool/
+# Auto-generated VS Code settings directory
+.vscode/
+# Auto-generated C# related folder
+**/*.csproj.user
+**/*.csproj.vscode
+# Auto-generated VS2017+, Rider, and JetBrains Rider related files
+.idea
+.idea_modules
+# User-specific files
+*.rsuser
+*.user
+*.suo
+*.userosscache
+*.userprefs
+# Mono Auto Generated Files
+mono_crash.*
+# Windows image file caches
+Thumbs.db
+Thumbs.db.old
