@@ -26,10 +26,4 @@
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
-	<Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
-		<!-- Ensure Node.js is installed, then build the Angular project -->
-		<Exec Command="npm install" WorkingDirectory="clientapp" />
-		<Exec Command="npm run build" WorkingDirectory="clientapp" />
-	</Target>
-
 </Project>
